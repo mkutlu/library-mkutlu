@@ -13,5 +13,9 @@ namespace library
         {
 
         }
+        protected void deneme_onClickEvent(object sender, EventArgs e)
+        {
+            Response.Write("<script>alert('deneme.')</script>");
+        }
     }
 }
